@@ -2,11 +2,19 @@ gsap.registerPlugin(ScrollTrigger);
 
 let getRatio = el => window.innerHeight / (window.innerHeight + el.offsetHeight);
 
+const sectionImages = [
+  "./images/1-process-pic.jpg",
+  "./images/2-mountains.jpg",
+  "./images/3-electronic-monolith.jpg",
+  "./images/4-una-pizza.jpg",
+  "./images/5-bump-block.jpg"
+];
+
 gsap.utils.toArray("section").forEach((section, i) => {
   section.bg = section.querySelector(".bg"); 
 
   // Give the backgrounds some random images
-  section.bg.style.backgroundImage = `url(./images/process-pic.jpg)`;
+  section.bg.style.backgroundImage = `url(${sectionImages[i]})`;
   
   // the first image (i === 0) should be handled differently because it should start at the very top.
   // use function-based values in order to keep things responsive
