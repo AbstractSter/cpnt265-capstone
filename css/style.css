@@ -32,6 +32,14 @@ h1 {
   padding: 0;
 }
 
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar-menu-items {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Welcome Button */
 span {
   font-family: Arial, Helvetica, sans-serif;

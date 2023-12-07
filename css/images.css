@@ -42,6 +42,13 @@ img {
   margin-top: 0.5rem; /* Adjust the top margin of the text */
 }
 
+.gallery-image > a {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* New Media Query Code */
 @media (max-width: 50rem) {
   .gallery-grid {
