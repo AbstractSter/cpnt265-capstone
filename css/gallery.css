@@ -1,16 +1,18 @@
 /* Main Gallery */
 .gallery-grid {
   display: grid;
-  grid-template-rows: 3fr;
-  gap: 1rem;
+  grid-template-columns: auto auto auto;
+  /* gap: 1rem; */
   padding: 1rem;
   margin: 2rem;
 }
 
 /* Image Cards */
 .gallery-image {
+  max-width: 600px;
+  width: 200px;
   border-radius: 0.75rem;
-  padding: 2rem;
+  padding: 1rem;
   background-color: white;
   border: solid;
   border-color: #1f4865;
@@ -28,6 +30,7 @@ img {
   width: 100%;
   display: block;
   object-fit: contain;
+  margin: auto;
 }
 
 /* Image card text */
@@ -36,8 +39,8 @@ img {
   text-align: center;
 }
 
-/* Screen responsiveness */
-@media (width > 50rem) {
+/*  ToDo: Screen responsiveness needs to be changed to allow 3 cards wide on desktop */
+/* @media (width > 50rem) {
   .gallery-grid {
 grid-template-columns: 1fr 1fr;
   }
@@ -47,4 +50,8 @@ grid-template-columns: 1fr 1fr;
   .gallery-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+} */
+
+footer {
+  position: fixed;
 }
