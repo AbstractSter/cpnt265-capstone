@@ -1,4 +1,4 @@
-const galleryContainer = document.querySelector('gallery-container');
+const galleryContainer = document.querySelector('.gallery-container');
 const galleryControlsContainer = document.querySelector('.gallery-controls');
 const galleryControls = ['previous', 'next'];
 const galleryItems = document.querySelectorAll('.gallery-item');
@@ -13,6 +13,7 @@ class Carousel {
 
   updateGallery() {
     this.carouselArray.forEach(el => {
+      // el.classList.remove(...el.classList);
       el.classList.remove('gallery-item-1');
       el.classList.remove('gallery-item-2');
       el.classList.remove('gallery-item-3');
@@ -46,7 +47,7 @@ class Carousel {
   }
 
   useControls() {
-    const trigger = [...galleryControlsContainer.childNodes];
+    const triggers = [...galleryControlsContainer.childNodes];
     triggers.forEach(control => {
       control.addEventListener('click', e => {
         e.preventDefault();
