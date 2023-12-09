@@ -1,7 +1,5 @@
 let getRatio = el => window.innerHeight / (window.innerHeight + el.offsetHeight);
 
-// let section = document.querySelector("section-1");
-
 const sectionImages = [
   {src: "images/1-process-pic.jpg"},
   {src: "images/2-mountains.jpg"},
@@ -15,7 +13,7 @@ gsap.utils.toArray("section").forEach((section, i) => {
 
   console.log(section.bg);
 
-  section.bg.style.backgroundImage = `url(${sectionImages[i]})`;
+  section.bg.style.backgroundImage = `url(${sectionImages[i].src})`;
   
   gsap.fromTo(section.bg, {
     backgroundPosition: () => i ? `50% ${-window.innerHeight * getRatio(section)}px` : "50% 0px"
@@ -30,5 +28,4 @@ gsap.utils.toArray("section").forEach((section, i) => {
       invalidateOnRefresh: true
     }
   });
-
 });
