@@ -24,7 +24,7 @@ gsap.utils.toArray("section").forEach((section, i) => {
     ease: "none",
     scrollTrigger: {
       trigger: section,
-      start: () => i ? "top bottom" : "top top", 
+      start: () => i ? "top bottom" : "top top",
       end: "bottom top",
       scrub: true,
       invalidateOnRefresh: true
