@@ -31,6 +31,7 @@ h1 {
   font-weight: 400;
   text-decoration: none;
   padding: 0;
+  text-align: center;
 }
 
 h2 {
@@ -41,9 +42,6 @@ h3, p {
   color: rgb(80, 80, 80);
 }
 
-.nav-bar-menu-items {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 /* Welcome Button */
 span {
