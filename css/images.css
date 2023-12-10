@@ -8,3 +8,20 @@ main {
   align-items: center;
 }
 
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  gap: 50px;
+}
+
+.social-media a {
+  color: #333;
+  font-size: 100px;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: #a93168;
+}
