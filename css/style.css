@@ -36,6 +36,7 @@ h1 {
 
 h2 {
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 h3, p {
@@ -66,16 +67,19 @@ span {
   height: 40px;
   line-height: 42px;
   padding: 0;
+  margin: 5px;
   border: none;
   border-radius: 5px;
-  background: rgb(255,27,0);
+  background: #fcdee3;
   text-decoration: none;
+  text-transform: capitalize;
 }
 .custom-btn:hover {
-  color: #eaff00;
-  background: rgb(255, 191, 0);
+  cursor: pointer;
+  color: #fcdee3;
+  background: #a93168;
   box-shadow: 3px 3px 3px black;
-  transition: 0.75s;
+  transition: 0.25s;
 }
 
 
