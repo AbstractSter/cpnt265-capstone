@@ -21,6 +21,13 @@ section {
   background-repeat: no-repeat;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
 /* Text on main landing page and bottom picture text */
 h1 {
   font-family: Arial, Helvetica, sans-serif;

@@ -4,7 +4,7 @@ nav {
   justify-content: space-between;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(252, 222, 227);
-  border-radius: 5px;
+  border-radius: 0px 0px 5px 5px;
 }
 
 .nav-title {
@@ -15,6 +15,14 @@ nav {
   list-style: none;
   display: flex;
   margin: 5px;
+}
+
+.nav-bar-menu-buttons a:hover {
+  cursor: pointer;
+  color: #fcdee3;
+  background: #a93168;
+  transition: 0.25s;
+  border-radius: 5px;
 }
 
 a {
@@ -138,5 +146,10 @@ a {
 }
 
 footer {
-  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fcdee3;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto;
+  border-radius: 5px 5px 0px 0px;
 }
