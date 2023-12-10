@@ -1,6 +1,26 @@
-.nav {
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: pink;
+  background-color: rgb(252, 222, 227);
+  border-radius: 5px;
+}
+
+.nav-title {
+  margin: 5px;
+}
+
+.nav-bar-menu-buttons {
+  list-style: none;
+  display: flex;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+  margin: 10px;
 }
 
 .gallery {
