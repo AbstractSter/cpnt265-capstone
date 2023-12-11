@@ -9,6 +9,7 @@ nav {
 
 .nav-title {
   margin: 5px;
+  color: #a93168;
 }
 
 .nav-bar-menu-buttons {
@@ -29,6 +30,7 @@ a {
   text-decoration: none;
   padding: 5px;
   margin: 10px;
+  color: #a93168;
 }
 
 .gallery {
@@ -43,12 +45,6 @@ a {
   max-width: 1000px;
   position: relative;
 }
-
-/* .gallery-container img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-} */
 
 .gallery-item {
   height: 200px;
@@ -119,6 +115,7 @@ a {
   background: #fcdee3;
   text-decoration: none;
   text-transform: capitalize;
+  color: #a93168;
 }
 
 .gallery-controls button:hover {
