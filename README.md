@@ -13,6 +13,6 @@ CPNT 265 - Final Capstone Project
 - [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Flexbox help
 - All images of paintings are original artworks by Sterling Smith
 - Classmate help: Chad Cervantes, Calum Holt, Kevin Fula, Robbie Soriano, Sydney Bruce, Dorothy Nguyen, Emily Seafoot
-- Instructor help: Tony Grimes, Ashlyn Knox
+- Instructor help: Ashlyn Knox, Tony Grimes
 
 

@@ -12,6 +12,14 @@ nav {
   color: #a93168;
 }
 
+.nav-title:hover {
+  cursor: pointer;
+  color: #fcdee3;
+  background: #a93168;
+  transition: 0.25s;
+  border-radius: 5px;
+}
+
 .nav-bar-menu-buttons {
   list-style: none;
   display: flex;
@@ -45,6 +53,7 @@ a {
   max-width: 1000px;
   position: relative;
 }
+
 
 .gallery-item {
   height: 200px;
