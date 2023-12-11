@@ -8,22 +8,27 @@ nav {
 }
 
 .nav-title {
+  padding: 5px;
   margin: 5px;
   color: #a93168;
 }
 
-.nav-title:hover {
-  cursor: pointer;
+.nav-title a:hover {
   color: #fcdee3;
+  cursor: pointer;
   background: #a93168;
   transition: 0.25s;
   border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 3px 3px 3px black;
 }
 
 .nav-bar-menu-buttons {
   list-style: none;
   display: flex;
   margin: 5px;
+  padding: 5px;
 }
 
 .nav-bar-menu-buttons a:hover {
@@ -32,12 +37,13 @@ nav {
   background: #a93168;
   transition: 0.25s;
   border-radius: 5px;
+  box-shadow: 3px 3px 3px black;
 }
 
 a {
   text-decoration: none;
   padding: 5px;
-  margin: 10px;
+  margin: 5px;
   color: #a93168;
 }
 
