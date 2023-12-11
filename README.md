@@ -3,6 +3,8 @@ CPNT 265 - Final Capstone Project
 
 ## Author: Sterling Smith
 
+## [Deployed Netlify Site](https://sterlingsmithart.netlify.app/)
+
 ### Attributes
 - [CodePen](https://codepen.io/AbstractSter/pen/YzBRmev)
 - [GSAP](https://gsap.com/docs/v3/Installation)
