@@ -1,11 +1,11 @@
 let getRatio = el => window.innerHeight / (window.innerHeight + el.offsetHeight);
 
 const sectionImages = [
-  {src: "images/1-process-pic.jpg"},
+  {src: "images/1-bump-block.jpg"},
   {src: "images/2-mountains.jpg"},
-  {src: "images/3-electronic-monolith.jpg"},
+  {src: "images/3-goggles.jpg"},
   {src: "images/4-una-pizza.jpg"},
-  {src: "images/5-bump-block.jpg"},
+  {src: "images/5-bump-block-2.jpg"},
 ];
 
 gsap.utils.toArray("section").forEach((section, i) => {
